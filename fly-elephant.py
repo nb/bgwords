@@ -1,7 +1,6 @@
 # coding: utf8
-from words import read
-all_words = read()
-alphabet = u'абвгдежзийклмнопрстуфхцчшщъьюя'
+from words import read, alphabet
+all_words = set(read())
 start = u'муха'
 end = u'слон'
 unknown_words = [u'сури', u'сура', u'сири', u'мири']
